@@ -20,8 +20,12 @@
   "CLOCK_PERIOD": 20,
 
   "//": "Hold slack margin - Increase them in case you are getting hold violations.",
-  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.1,
-  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.05,
+  "//": "tt-blocos: lowered from 0.1 / 0.05 (same as tt-pid8). With 0.1 the post-CTS resizer",
+  "//": "found 114 hold endpoints below the margin, added 148 hold buffers (+11 % area) on a",
+  "//": "core already at 0.85 density, and detailed placement failed (DPL-0036).",
+  "//": "The signoff STA still includes the 0.25 ns clock uncertainty of the TT SDC.",
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.03,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.02,
 
   "//": "RUN_LINTER, LINTER_INCLUDE_PDK_MODELS - Disabling the linter is not recommended!",
   "RUN_LINTER": 1,

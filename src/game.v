@@ -77,7 +77,8 @@ module game (
     wire do_shift  = (state == S_CLEAR) && full;
 
     // tabuleiro: escrever a peça (OR) e fazer descer as linhas acima de uma linha cheia
-    wire [71:0] board_up = {board, 8'd0};   // board_up[8*k +: 8] = linha k-1 (0 para k = 0)
+    wire [63:0] board_up   = {board[55:0], 8'd0};       // board_up[8*k +: 8] = linha k-1 (0 para k = 0)
+    wire [7:0]  shift_rows = 8'hFF >> (3'd7 - clr_row);  // linhas 0..clr_row descem
 
     genvar k;
     generate
@@ -87,7 +88,7 @@ module game (
                     board[8*k +: 8] <= 8'd0;
                 else if (do_lock && rowidx[2:0] == k)
                     board[8*k +: 8] <= board[8*k +: 8] | mask[7:0];
-                else if (do_shift && clr_row >= k)
+                else if (do_shift && shift_rows[k])
                     board[8*k +: 8] <= board_up[8*k +: 8];
             end
         end
