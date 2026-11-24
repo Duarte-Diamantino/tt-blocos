@@ -1,0 +1,317 @@
+
+9. Printing statistics.
+
+=== tt_um_duarte_diamantino_blocos ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      132        - wires
+      254        - wire bits
+       33        - public wires
+      155        - public wire bits
+        8        - ports
+       43        - port bits
+      118 1.07E+03 cells
+        1    7.507   sky130_fd_sc_hd__a211oi_1
+        1    7.507   sky130_fd_sc_hd__a21boi_0
+        1    7.507   sky130_fd_sc_hd__a21o_1
+       10   50.048   sky130_fd_sc_hd__a21oi_1
+        1    10.01   sky130_fd_sc_hd__a221o_1
+        1    8.758   sky130_fd_sc_hd__a221oi_1
+        1    8.758   sky130_fd_sc_hd__a311oi_1
+        2   12.512   sky130_fd_sc_hd__a31oi_1
+        1    6.256   sky130_fd_sc_hd__and3_1
+        5   18.768   sky130_fd_sc_hd__clkinv_1
+       16  320.307   sky130_fd_sc_hd__dfxtp_1
+        1    6.256   sky130_fd_sc_hd__lpflow_isobufsrc_1
+        2   20.019   sky130_fd_sc_hd__maj3_1
+        7   70.067   sky130_fd_sc_hd__mux2i_1
+        3   67.565   sky130_fd_sc_hd__mux4_2
+       11    41.29   sky130_fd_sc_hd__nand2_1
+        3   18.768   sky130_fd_sc_hd__nand2b_1
+        3   15.014   sky130_fd_sc_hd__nand3_1
+        1    6.256   sky130_fd_sc_hd__nand4_1
+        1    8.758   sky130_fd_sc_hd__nand4b_1
+        4   15.014   sky130_fd_sc_hd__nor2_1
+        1    6.256   sky130_fd_sc_hd__nor2b_1
+        2    10.01   sky130_fd_sc_hd__nor3_1
+        1    7.507   sky130_fd_sc_hd__nor3b_1
+        1    6.256   sky130_fd_sc_hd__nor4_1
+        1    8.758   sky130_fd_sc_hd__nor4b_1
+        3   30.029   sky130_fd_sc_hd__o211a_1
+        1    7.507   sky130_fd_sc_hd__o211ai_1
+        7   35.034   sky130_fd_sc_hd__o21ai_0
+        1    8.758   sky130_fd_sc_hd__o221ai_1
+        1    8.758   sky130_fd_sc_hd__o22a_1
+        1    6.256   sky130_fd_sc_hd__o22ai_1
+        1    10.01   sky130_fd_sc_hd__o311a_1
+        3   26.275   sky130_fd_sc_hd__o31a_1
+        1    10.01   sky130_fd_sc_hd__o32a_1
+        1    6.256   sky130_fd_sc_hd__or3_1
+        2   15.014   sky130_fd_sc_hd__or4_1
+        8   70.067   sky130_fd_sc_hd__xnor2_1
+        1   22.522   sky130_fd_sc_hd__xnor3_1
+        5   43.792   sky130_fd_sc_hd__xor2_1
+        3        - submodules
+        1        -   game
+        1        -   pieces
+        1        -   vga_sync
+
+   Chip area for module '\tt_um_duarte_diamantino_blocos': 1066.022400
+     of which used for sequential elements: 320.307200 (30.05%)
+
+=== game ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      695        - wires
+      906        - wire bits
+       28        - public wires
+      239        - public wire bits
+       13        - ports
+       39        - port bits
+      806 6.68E+03 cells
+        1    8.758   sky130_fd_sc_hd__a211o_1
+       19  142.637   sky130_fd_sc_hd__a211oi_1
+        2   15.014   sky130_fd_sc_hd__a21boi_0
+        2   15.014   sky130_fd_sc_hd__a21o_1
+       82  410.394   sky130_fd_sc_hd__a21oi_1
+        1    8.758   sky130_fd_sc_hd__a22o_1
+        3   22.522   sky130_fd_sc_hd__a22oi_1
+        1    10.01   sky130_fd_sc_hd__a2bb2o_1
+        1    8.758   sky130_fd_sc_hd__a31o_1
+       32  200.192   sky130_fd_sc_hd__a31oi_1
+        1    10.01   sky130_fd_sc_hd__a32o_1
+        1    8.758   sky130_fd_sc_hd__a32oi_1
+       15    93.84   sky130_fd_sc_hd__and2_0
+        5    31.28   sky130_fd_sc_hd__and3_1
+        1    8.758   sky130_fd_sc_hd__and4_1
+       22   82.579   sky130_fd_sc_hd__clkinv_1
+      130  2.6E+03   sky130_fd_sc_hd__dfxtp_1
+        5    31.28   sky130_fd_sc_hd__lpflow_inputiso1p_1
+       11   68.816   sky130_fd_sc_hd__lpflow_isobufsrc_1
+        1    10.01   sky130_fd_sc_hd__maj3_1
+       11  123.869   sky130_fd_sc_hd__mux2_1
+       15  150.144   sky130_fd_sc_hd__mux2i_1
+       20  450.432   sky130_fd_sc_hd__mux4_2
+       54  202.694   sky130_fd_sc_hd__nand2_1
+        5    31.28   sky130_fd_sc_hd__nand2b_1
+       15   75.072   sky130_fd_sc_hd__nand3_1
+        1    7.507   sky130_fd_sc_hd__nand3b_1
+        8   50.048   sky130_fd_sc_hd__nand4_1
+        2   17.517   sky130_fd_sc_hd__nand4b_1
+      132  495.475   sky130_fd_sc_hd__nor2_1
+        2   12.512   sky130_fd_sc_hd__nor2b_1
+       12   60.058   sky130_fd_sc_hd__nor3_1
+        3   22.522   sky130_fd_sc_hd__nor3b_1
+        7   43.792   sky130_fd_sc_hd__nor4_1
+        1   11.261   sky130_fd_sc_hd__o2111a_1
+        1    8.758   sky130_fd_sc_hd__o2111ai_1
+        1    10.01   sky130_fd_sc_hd__o211a_1
+        9   67.565   sky130_fd_sc_hd__o211ai_1
+        8   60.058   sky130_fd_sc_hd__o21a_1
+      107  535.514   sky130_fd_sc_hd__o21ai_0
+        1    10.01   sky130_fd_sc_hd__o21ba_1
+        6   67.565   sky130_fd_sc_hd__o221a_1
+        2   17.517   sky130_fd_sc_hd__o221ai_1
+       17  106.352   sky130_fd_sc_hd__o22ai_1
+        1    8.758   sky130_fd_sc_hd__o311ai_0
+        1    8.758   sky130_fd_sc_hd__o31a_1
+        4   30.029   sky130_fd_sc_hd__o31ai_1
+        1    8.758   sky130_fd_sc_hd__o32ai_1
+        1    8.758   sky130_fd_sc_hd__o41ai_1
+        1    6.256   sky130_fd_sc_hd__or3_1
+        1    8.758   sky130_fd_sc_hd__or3b_1
+        2   15.014   sky130_fd_sc_hd__or4_1
+        2   20.019   sky130_fd_sc_hd__or4b_1
+       11   96.342   sky130_fd_sc_hd__xnor2_1
+        5   43.792   sky130_fd_sc_hd__xor2_1
+        1        - submodules
+        1        -   pieces
+
+   Chip area for module '\game': 6682.659200
+     of which used for sequential elements: 2602.496000 (38.94%)
+
+=== vga_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       86        - wires
+      104        - wire bits
+        8        - public wires
+       26        - public wire bits
+        8        - ports
+       26        - port bits
+      102  877.091 cells
+        1    8.758   sky130_fd_sc_hd__a2111oi_0
+        2   15.014   sky130_fd_sc_hd__a211oi_1
+        8   40.038   sky130_fd_sc_hd__a21oi_1
+        1    8.758   sky130_fd_sc_hd__a311oi_1
+        2   12.512   sky130_fd_sc_hd__a31oi_1
+        1    8.758   sky130_fd_sc_hd__a41oi_1
+        2   12.512   sky130_fd_sc_hd__and2_0
+        3   18.768   sky130_fd_sc_hd__and3_1
+        5   43.792   sky130_fd_sc_hd__and4_1
+        3   11.261   sky130_fd_sc_hd__clkinv_1
+       20  400.384   sky130_fd_sc_hd__dfxtp_1
+        1    6.256   sky130_fd_sc_hd__lpflow_isobufsrc_1
+        3   11.261   sky130_fd_sc_hd__nand2_1
+        1    5.005   sky130_fd_sc_hd__nand3_1
+        6   37.536   sky130_fd_sc_hd__nand4_1
+        1    8.758   sky130_fd_sc_hd__nand4b_1
+        1   11.261   sky130_fd_sc_hd__nand4bb_1
+       14    52.55   sky130_fd_sc_hd__nor2_1
+       10   50.048   sky130_fd_sc_hd__nor3_1
+        1    7.507   sky130_fd_sc_hd__nor3b_1
+        5    31.28   sky130_fd_sc_hd__nor4_1
+        1    8.758   sky130_fd_sc_hd__nor4b_1
+        5   25.024   sky130_fd_sc_hd__o21ai_0
+        1    6.256   sky130_fd_sc_hd__or3_1
+        2   17.517   sky130_fd_sc_hd__xnor2_1
+        2   17.517   sky130_fd_sc_hd__xor2_1
+
+   Chip area for module '\vga_sync': 877.091200
+     of which used for sequential elements: 400.384000 (45.65%)
+
+=== pieces ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       34        - wires
+       52        - wire bits
+        3        - public wires
+       21        - public wire bits
+        3        - ports
+       21        - port bits
+       41  241.482 cells
+        8   40.038   sky130_fd_sc_hd__a21oi_1
+        1    7.507   sky130_fd_sc_hd__a22oi_1
+        1    8.758   sky130_fd_sc_hd__a2bb2oi_1
+        1    8.758   sky130_fd_sc_hd__a41oi_1
+        2   12.512   sky130_fd_sc_hd__and2_0
+        1    6.256   sky130_fd_sc_hd__and3_1
+        3   11.261   sky130_fd_sc_hd__clkinv_1
+        1    6.256   sky130_fd_sc_hd__lpflow_inputiso1p_1
+        1    6.256   sky130_fd_sc_hd__lpflow_isobufsrc_1
+        1    3.754   sky130_fd_sc_hd__nand2_1
+        2   12.512   sky130_fd_sc_hd__nand2b_1
+        2    10.01   sky130_fd_sc_hd__nand3_1
+        1    7.507   sky130_fd_sc_hd__nand3b_1
+        5   18.768   sky130_fd_sc_hd__nor2_1
+        1    5.005   sky130_fd_sc_hd__nor3_1
+        1    10.01   sky130_fd_sc_hd__nor4bb_1
+        1    10.01   sky130_fd_sc_hd__o211a_1
+        1    7.507   sky130_fd_sc_hd__o211ai_1
+        3   15.014   sky130_fd_sc_hd__o21ai_0
+        1    8.758   sky130_fd_sc_hd__o221ai_1
+        1    8.758   sky130_fd_sc_hd__o311ai_0
+        1    7.507   sky130_fd_sc_hd__o31ai_1
+        1    8.758   sky130_fd_sc_hd__xnor2_1
+
+   Chip area for module '\pieces': 241.481600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        |        +-Area including submodules.
+        |        | 
+     1108 9.11E+03 tt_um_duarte_diamantino_blocos
+      806 6.68E+03 game
+       41  241.482   pieces
+       41  241.482 pieces
+      102  877.091 vga_sync
+
+        +----------Count including submodules.
+        |        +-Area including submodules.
+        |        | 
+      981        - wires
+     1368        - wire bits
+       75        - public wires
+      462        - public wire bits
+       35        - ports
+      150        - port bits
+        -        - memories
+        -        - memory bits
+        -        - processes
+     1108 9.11E+03 cells
+        1    8.758   sky130_fd_sc_hd__a2111oi_0
+        1    8.758   sky130_fd_sc_hd__a211o_1
+       22  165.158   sky130_fd_sc_hd__a211oi_1
+        3   22.522   sky130_fd_sc_hd__a21boi_0
+        3   22.522   sky130_fd_sc_hd__a21o_1
+      116  580.557   sky130_fd_sc_hd__a21oi_1
+        1    10.01   sky130_fd_sc_hd__a221o_1
+        1    8.758   sky130_fd_sc_hd__a221oi_1
+        1    8.758   sky130_fd_sc_hd__a22o_1
+        5   37.536   sky130_fd_sc_hd__a22oi_1
+        1    10.01   sky130_fd_sc_hd__a2bb2o_1
+        2   17.517   sky130_fd_sc_hd__a2bb2oi_1
+        2   17.517   sky130_fd_sc_hd__a311oi_1
+        1    8.758   sky130_fd_sc_hd__a31o_1
+       36  225.216   sky130_fd_sc_hd__a31oi_1
+        1    10.01   sky130_fd_sc_hd__a32o_1
+        1    8.758   sky130_fd_sc_hd__a32oi_1
+        3   26.275   sky130_fd_sc_hd__a41oi_1
+       21  131.376   sky130_fd_sc_hd__and2_0
+       11   68.816   sky130_fd_sc_hd__and3_1
+        6    52.55   sky130_fd_sc_hd__and4_1
+       36   135.13   sky130_fd_sc_hd__clkinv_1
+      166 3.32E+03   sky130_fd_sc_hd__dfxtp_1
+        7   43.792   sky130_fd_sc_hd__lpflow_inputiso1p_1
+       15    93.84   sky130_fd_sc_hd__lpflow_isobufsrc_1
+        3   30.029   sky130_fd_sc_hd__maj3_1
+       11  123.869   sky130_fd_sc_hd__mux2_1
+       22  220.211   sky130_fd_sc_hd__mux2i_1
+       23  517.997   sky130_fd_sc_hd__mux4_2
+       70  262.752   sky130_fd_sc_hd__nand2_1
+       12   75.072   sky130_fd_sc_hd__nand2b_1
+       23   115.11   sky130_fd_sc_hd__nand3_1
+        3   22.522   sky130_fd_sc_hd__nand3b_1
+       15    93.84   sky130_fd_sc_hd__nand4_1
+        4   35.034   sky130_fd_sc_hd__nand4b_1
+        1   11.261   sky130_fd_sc_hd__nand4bb_1
+      160  600.576   sky130_fd_sc_hd__nor2_1
+        3   18.768   sky130_fd_sc_hd__nor2b_1
+       26  130.125   sky130_fd_sc_hd__nor3_1
+        5   37.536   sky130_fd_sc_hd__nor3b_1
+       13   81.328   sky130_fd_sc_hd__nor4_1
+        2   17.517   sky130_fd_sc_hd__nor4b_1
+        2   20.019   sky130_fd_sc_hd__nor4bb_1
+        1   11.261   sky130_fd_sc_hd__o2111a_1
+        1    8.758   sky130_fd_sc_hd__o2111ai_1
+        6   60.058   sky130_fd_sc_hd__o211a_1
+       12   90.086   sky130_fd_sc_hd__o211ai_1
+        8   60.058   sky130_fd_sc_hd__o21a_1
+      125    625.6   sky130_fd_sc_hd__o21ai_0
+        1    10.01   sky130_fd_sc_hd__o21ba_1
+        6   67.565   sky130_fd_sc_hd__o221a_1
+        5   43.792   sky130_fd_sc_hd__o221ai_1
+        1    8.758   sky130_fd_sc_hd__o22a_1
+       18  112.608   sky130_fd_sc_hd__o22ai_1
+        1    10.01   sky130_fd_sc_hd__o311a_1
+        3   26.275   sky130_fd_sc_hd__o311ai_0
+        4   35.034   sky130_fd_sc_hd__o31a_1
+        6   45.043   sky130_fd_sc_hd__o31ai_1
+        1    10.01   sky130_fd_sc_hd__o32a_1
+        1    8.758   sky130_fd_sc_hd__o32ai_1
+        1    8.758   sky130_fd_sc_hd__o41ai_1
+        3   18.768   sky130_fd_sc_hd__or3_1
+        1    8.758   sky130_fd_sc_hd__or3b_1
+        4   30.029   sky130_fd_sc_hd__or4_1
+        2   20.019   sky130_fd_sc_hd__or4b_1
+       23  201.443   sky130_fd_sc_hd__xnor2_1
+        1   22.522   sky130_fd_sc_hd__xnor3_1
+       12  105.101   sky130_fd_sc_hd__xor2_1
+        3 8.04E+03 submodules
+        1 6.92E+03   game
+        1  482.963   pieces
+        1  877.091   vga_sync
+
+   Chip area for top module '\tt_um_duarte_diamantino_blocos': 9108.736000
+     of which used for sequential elements: 3323.187200 (36.48%)
+
